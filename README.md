@@ -163,12 +163,13 @@
 ```
 # curriculo css
 ```css
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -176,8 +177,41 @@ header{
     height: 100px;
 
 }
-header img{
+
+header img {
     border-radius: 50%;
-    
+    width: 80px;
+}
+
+header h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20% 20% 0 0;
+}
+
+nav a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 8px;
+    border-radius: 30% 30% 0 0;
+}
+
+nav a:hover {
+    color: yellow;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: red;
+    padding: 8px;
+    border-radius: 30% 30% 0 0;
+
 }
 ```
