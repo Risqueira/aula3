@@ -78,3 +78,54 @@
 
 </html>
 ```
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <Style>
+        #cabecalho {
+            width: 100vw;
+            height: 30vh;
+            border: 2px solid black;
+        }
+
+        #corpo {
+            width: 100vw;
+            height: 60vh;
+            border: 2px solid black;
+        }
+
+        #rodape {
+            width: 100%;
+            height: 30%;
+            border: 2px solid black;
+        }
+    </Style>mkl
+
+</head>
+
+<body>
+
+    <div id="cabecalho">Titulo</div>
+
+    <div id="corpo">corpinho
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa commodi cumque vel harum quasi porro voluptates
+        saepe voluptas neque accusamus? Doloribus quo sunt hic illo voluptatum sit ut labore repellendus. Aliquam
+        distinctio at maiores odit sunt sapiente, pariatur ullam veniam vero repudiandae nulla mollitia nihil ut unde
+        corrupti quaerat vitae assumenda, magni cupiditate ipsa quibusdam et iusto fuga illo. Corrupti ratione
+        recusandae similique ullam maxime fuga. Provident expedita, aperiam similique, deleniti labore assumenda quidem
+        nulla commodi error, quos amet doloribus sequi? Laudantium, reprehenderit facere, animi esse tempora quibusdam
+        voluptates, numquam sit necessitatibus obcaecati soluta. Odio modi molestiae cum atque ducimus.
+    </div>
+
+    <div id="rodape">rodape</div>
+
+
+</body>
+
+</html>
+```
