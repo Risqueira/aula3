@@ -129,3 +129,55 @@
 
 </html>
 ```
+
+# curriculo html
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina modelo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./pedra.jpg" alt="foto de perfil">
+        <h2>site modelo</h2>
+        <nav>
+            <a href="pagina.html">home</a>
+            <a href="#sobre">sobre</a>
+            <a href="#projeto">projeto</a>
+            <a href="#contato">contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+```
+# curriculo css
+```css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    height: 100px;
+
+}
+header img{
+    border-radius: 50%;
+    
+}
+```
